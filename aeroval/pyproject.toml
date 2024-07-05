@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aerovalnb"
+version = "0.1.0"
+description = "AeroVal notebooks"
+authors = ["augustinm <augustinm@met.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+matplotlib = "^3.9.0"
+cartopy = "^0.23.0"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
