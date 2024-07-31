@@ -11,7 +11,7 @@ This is a preliminary version of the material that might be presented at the mee
 
 1. Satellite: the goal would be to show as much data as possible, e.g. S3 Fire Radiative Power, plumes from S3 OCLI, emissions from GOME-2, IASI, TROPOMI NO2 and other species, maybe Scar Burn from S2.
 2. In-situ: processing and visualization of in-situ data, e.g. from the pandora instrument. The instrument is a passive sensor used to monitor the content of some chemical species based on the Differential Optical Absorption Spectroscopy (DOAS) technique.
-3. Model. download and visualization of dataset from models, e.g.
+3. Model: download and visualization of dataset from models, e.g.
    * aerosol optical depth using the dataset [CAMS global atmospheric composition forecasts](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts?tab=overview)
    * ozone forecast using the dataset [CAMS European air quality forecasts](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=overview)
 4. Emissions: download and map visualization of anthropogenic emissions using the dataset [CAMS global emission inventories](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-emission-inventories?tab=overview)
