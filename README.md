@@ -16,7 +16,7 @@ This is a preliminary version of the material that might be presented at the mee
    * ozone forecast using the dataset [CAMS European air quality forecasts](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=overview)
 4. Emissions: download and map visualization of anthropogenic emissions using the dataset [CAMS global emission inventories](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-emission-inventories?tab=overview)
 5. CAMS-MOS: evaluation of climate and air quality models. Comparison of in-situ data with model output statistics (CAMS-MOS) using the MOS dataset [CAMS European air quality forecasts optimised at observation sites](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts-optimised-at-observation-sites?tab=overview) and surface measurement e.g. from [AeroVal APIs](https://aeroval.met.no/)
-6. Average Kernels: comparison of models with satellite data, e.g. for NO2 from [TROPOMI](https://www.tropomi.eu/), using the average kernels statistical algorithm.
+6. Averaging Kernels: comparison of models with satellite data, e.g. for NO2 from [TROPOMI](https://www.tropomi.eu/), using the average kernels statistical algorithm.
 7. Aeroval: model evaluation with in-situ data using the AeroVal APIs
 8. Air quality index: calculation of the air quality index forecast using the dataset [CAMS global atmospheric composition forecasts](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts?tab=overview)
 
