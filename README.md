@@ -7,6 +7,7 @@ Each directory in this repository contains code, Jupyter notebooks and other (no
 The directories are numbered according to the order in which they appear in [the course programme](https://atmosphere.copernicus.eu/6th-ecmwf-cams-esa-eumetsat-training-atmospheric-composition)
 
 ## Table of contents
+This is a preliminary version of the material that might be presented at the meeting
 
 1. Satellite: the goal would be to show as much data as possible, e.g. S3 Fire Radiative Power, plumes from S3 OCLI, emissions from GOME-2, IASI, TROPOMI NO2 and other species, maybe Scar Burn from S2.
 2. In-situ: processing and visualization of in-situ data, e.g. from the pandora instrument. The instrument is a passive sensor used to monitor the content of some chemical species based on the Differential Optical Absorption Spectroscopy (DOAS) technique.
