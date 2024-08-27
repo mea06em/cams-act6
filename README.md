@@ -26,3 +26,4 @@ By September 16th 2024 The Climate Data Store and the Atmospheric Data Store wil
 url: https://ads.atmosphere.copernicus.eu/api/v2
 key: <replace with your access key>
 ```
+More information about the data access is available in the [ECMWF Documentation](https://confluence.ecmwf.int/display/CKB/Please+read%3A+CDS+and+ADS+migrating+to+new+infrastructure%3A+Common+Data+Store+%28CDS%29+Engine). 
