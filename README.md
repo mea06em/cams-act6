@@ -20,7 +20,7 @@ This is a preliminary list of the material that might be presented at the meetin
 7. Aeroval: model evaluation with in-situ data using the AeroVal APIs [CAMS European air quality forecasts optimised at observation sites](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts-optimised-at-observation-sites?tab=overview) and surface measurement e.g. from [AeroVal APIs](https://aeroval.met.no/)
 8. Air quality index: calculation of the air quality index forecast from $NO_2$, $O_3$, $SO_2$, $PM10$ and $PM2.5$ concentrations using the dataset [CAMS global atmospheric composition forecasts](https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts?tab=overview)
 
-## Access to the data
+## Access to the data from your laptop
 By September 16th 2024 the Climate Data Store and the Atmospheric Data Store will be decommissioned and all the requests for data access will be forwarded to the new web services, CDS-Beta and ADS-Beta respectively. In order to access these new web services you need to register at the [ECMWF](https://www.ecmwf.int/). The next step is to register to [CDS-Beta](https://cds-beta.climate.copernicus.eu/) and [ADS-Beta](https://ads-beta.atmosphere.copernicus.eu/). During the registration phase you will be assigned a key to be used as your password to access both services. That key is your personal key to be kept in a safe place. In order to avoid writing your access token (key) in a Jupyter notebook to access a service, you may write it in a hidden file named **.cdsapirc** in your home folder as follows:
 ```
 url: https://ads.atmosphere.copernicus.eu/api/v2
