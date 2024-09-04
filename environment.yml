@@ -1,6 +1,5 @@
 dependencies:
   - cdsapi
-  - datetime
   - numpy
   - netCDF4
   - pandas
@@ -8,4 +7,3 @@ dependencies:
   - matplotlib
   - cartopy
   - jupyterlab-myst
-  - urllib3
