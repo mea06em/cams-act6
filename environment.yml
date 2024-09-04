@@ -1,0 +1,11 @@
+dependencies:
+  - cdsapi
+  - datetime
+  - numpy
+  - netCDF4
+  - pandas
+  - xarray
+  - matplotlib
+  - cartopy
+  - jupyterlab-myst
+  - urllib3
