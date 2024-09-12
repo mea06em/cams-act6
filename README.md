@@ -14,7 +14,7 @@ This is a list of the practical sessions based on Jupyter notebooks.
 
 1. [Satellite observations](/01-satellite/): Explore satellite datasets including S3 Fire Radiative Power, plumes from S3 OCLI, emissions from GOME-2, IASI, TROPOMI NO2 and other species, Scar Burn from S2.
 2. [In-situ obervations](/02-in-situ/): Process and visualise in-situ data, e.g. from the Pandora instrument. The instrument is a passive sensor used to monitor chemical species based on the Differential Optical Absorption Spectroscopy (DOAS) technique.
-3. [Model data]: Explore forecast and reanalysis datasets from the Copernicus Atmosphere Monitoring Service (CAMS)
+3. [Model data](/03-model/): Explore forecast and reanalysis datasets from the Copernicus Atmosphere Monitoring Service (CAMS)
 4. [Emissions inventories](/04-emissions/): Download and visualise emssions data from inventories freely provided by CAMS.
 5. [CAMS Model Output Statistics](/05-cams-mos/): Discover AI optimised forecasts combining in-situ and regional model data.
 6. [Averaging Kernels](/06-ak/): Compare models with satellite data, e.g. for NO2 from [TROPOMI](https://www.tropomi.eu/), using the averaging kernels statistical algorithm.
