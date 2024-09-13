@@ -49,14 +49,10 @@ WEkEO is the EU Copernicus DIAS reference service for environmental data. It inc
 - browse to the notebook in the directory tree on the left panel
 
 ### Run locally on your computer
-Very good instructions on how to clone a github repository and install Python, Jupyter and the various packages provided in an environment.yml file is given [here](https://handbook.climaax.eu/notebooks/workflows_how_to/cli.html), even if this refers to a different project, a similar process can be followed. However, for this training, it is recommended to run the notebooks in a cloud environment.
+Another option is to run the notebooks locally on your own computer. To do this you would need to install Python, Jupyter and the various packages listed in the [`environment.yml`](./environment.yml) file. All software necessary for running the notebooks can be freely installed.
 
 ## Access to data
 
-### CAMS data
-By September 26th 2024 the Climate Data Store and the Atmospheric Data Store will be decommissioned and all the requests for data access will be forwarded to the new web services, CDS-Beta and ADS-Beta respectively. In order to access these new web services you need to register at [ECMWF](https://www.ecmwf.int/) and with the [CDS-Beta](https://cds-beta.climate.copernicus.eu/) and [ADS-Beta](https://ads-beta.atmosphere.copernicus.eu/). During the registration phase you will be assigned a key to be used as your password to access each service. That key is your personal key to be kept in a safe place. In order to avoid writing your access token (key) in a Jupyter notebook to access a service, you may write it in a hidden file named **.cdsapirc** in your home folder as follows:
-```
-url: https://ads-beta.atmosphere.copernicus.eu/api
-key: <replace with your access key>
-```
-More information about the data access is available in the [ECMWF Documentation](https://confluence.ecmwf.int/display/CKB/Please+read%3A+CDS+and+ADS+migrating+to+new+infrastructure%3A+Common+Data+Store+%28CDS%29+Engine). 
+-	[Copernicus Data Space](https://dataspace.copernicus.eu/). Access to data and services from the Sentinel missions.
+-	[EUMETSAT Earth Observation Portal](https://eoportal.eumetsat.int/). Access to data disseminated by EUMETSAT.
+-	[Atmosphere Data Store (ADS)](https://ads-beta.atmosphere.copernicus.eu/) Access to data from the Copernicus Atmosphere Monitoring Service (CAMS). Having registered, obtain your [API key here](https://ads-beta.atmosphere.copernicus.eu/how-to-api). Note that there is a recent new Beta version of the ADS, so even if you have an existing account, you will [need to upgrade](https://confluence.ecmwf.int/display/CKB/Please+read%3A+CDS+and+ADS+migrating+to+new+infrastructure%3A+Common+Data+Store+%28CDS%29+Engine).
